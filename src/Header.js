@@ -20,7 +20,7 @@ function Header() {
   };
   return (
     <div className="header">
-      <Link to="/" style={{ textDecoration: "none" }}>
+      <Link to="/eComm" style={{ textDecoration: "none" }}>
         <div className="header__logo">
           <StorefrontIcon className="header__logoImage" fontSize="large" />
           <h2 className="header__logoTitle">eComm</h2>
